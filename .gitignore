@@ -15,8 +15,9 @@
 .DS_Store
 .prettierignore
 
-# Avoid all markdown type files, for now
-*.md
+# Avoid README-info and style-guide markdown type files, for now
+README-info.md
+style-guide.md
 
 # Avoid node_modules and public folders
 node_modules
