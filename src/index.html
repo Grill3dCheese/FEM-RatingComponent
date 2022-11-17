@@ -11,6 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="assets/css/style.css">
+  <script src="scripts/script.js" async></script>
 
   <title>Frontend Mentor | Interactive rating component</title>
 </head>
@@ -19,7 +20,7 @@
   <!-- Rating state start -->
   <main>
     <article class="rating-card">
-      <div class="rating-side hidden">
+      <div class="rating-side">
         <div class="star-icon">
           <img src="assets/images/icon-star.svg" alt="A five-pointed star icon, commonly called a pentagram">
         </div>
@@ -37,7 +38,7 @@
       </div>
       <!-- Rating state end -->
       <!-- Thank you state start -->
-      <div class="thanks">
+      <div class="thanks hidden">
         <img src="assets/images/illustration-thank-you.svg"
           alt="A cell phone with a receipt coming out of the screen. Surrounding the phone is a credit card and circular dot">
         <p class="number-selected">You selected <span id="number-picked"></span> out of 5</p>
