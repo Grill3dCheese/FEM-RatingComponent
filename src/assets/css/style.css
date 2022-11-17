@@ -165,6 +165,33 @@ li button:focus {
   color: hsl(25deg, 97%, 53%);
 }
 
+.thanks {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+p.number-selected {
+  margin: 1.5rem 0;
+}
+
+.thanks p:nth-of-type(2) {
+  margin: 0.75rem 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.number-selected {
+  background: hsl(217deg, 15%, 24%);
+  color: hsl(25deg, 97%, 53%);
+  padding: 0.5rem 0.75rem 0.25rem 0.75rem;
+  border-radius: 1rem;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
