@@ -17,3 +17,7 @@
 
 # Avoid all markdown type files, for now
 *.md
+
+# Avoid node_modules and public folders
+node_modules
+public/

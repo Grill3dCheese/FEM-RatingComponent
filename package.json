@@ -1,0 +1,26 @@
+{
+  "name": "interactive-rating-component-main",
+  "version": "1.0.0",
+  "description": "Interactive Rating Component",
+  "main": "app.js",
+  "scripts": {
+    "compile:sass": "sass --watch src/sass:src/assets/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Grill3dCheese/FEM-RatingComponent.git"
+  },
+  "author": "Keith McKenna",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Grill3dCheese/FEM-RatingComponent/issues"
+  },
+  "homepage": "https://github.com/Grill3dCheese/FEM-RatingComponent#readme",
+  "devDependencies": {
+    "sass": "^1.56.1"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss-cli": "^10.0.0"
+  }
+}

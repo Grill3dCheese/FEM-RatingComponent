@@ -1,0 +1,165 @@
+/*
+  1. Use a more-intuitive box-sizing model.
+*/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/*
+  2. Remove default margin
+*/
+* {
+  margin: 0;
+}
+
+/*
+  3. Allow percentage-based heights in the application
+*/
+html,
+body {
+  height: 100%;
+}
+
+/*
+  Typographic tweaks!
+  4. Add accessible line-height
+  5. Improve text rendering
+*/
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/*
+  6. Improve media defaults
+*/
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+/*
+  7. Remove built-in form typography styles
+*/
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+/*
+  8. Avoid text overflows
+*/
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+* {
+  transition: 0.4s;
+}
+
+body {
+  font-family: "Overpass", sans-serif;
+  background: hsl(216deg, 12%, 8%);
+  color: hsl(0deg, 0%, 100%);
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+p {
+  font-size: 15px;
+  color: hsl(216deg, 12%, 54%);
+  margin: 0.75rem 0 1.5rem 0;
+}
+
+ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 2rem 0;
+  list-style: none;
+}
+
+li button {
+  background: hsl(217deg, 15%, 24%);
+  color: hsl(216deg, 12%, 54%);
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+li button:hover {
+  background: hsl(25deg, 97%, 53%);
+  color: hsl(0deg, 0%, 100%);
+}
+
+li button:focus {
+  background: hsl(217deg, 12%, 63%);
+  color: hsl(0deg, 0%, 100%);
+}
+
+.rating-card {
+  background: hsl(213deg, 19%, 18%);
+  padding: 2rem;
+  border-radius: 2rem;
+  max-width: 25rem;
+}
+
+.star-icon {
+  background: hsl(217deg, 15%, 24%);
+  padding: 1rem;
+  margin-bottom: 1.25rem;
+  border-radius: 50%;
+  height: 100%;
+  width: fit-content;
+}
+
+.btn-submit {
+  width: 100%;
+  background: hsl(25deg, 97%, 53%);
+  color: hsl(0deg, 0%, 100%);
+  font-weight: 700;
+  border: none;
+  border-radius: 2rem;
+  padding: 0.5rem 0;
+  text-transform: uppercase;
+  letter-spacing: 0.15rem;
+  cursor: pointer;
+}
+
+.btn-submit:hover {
+  background: hsl(0deg, 0%, 100%);
+  color: hsl(25deg, 97%, 53%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228deg, 45%, 44%);
+}
+
+/*# sourceMappingURL=style.css.map */
