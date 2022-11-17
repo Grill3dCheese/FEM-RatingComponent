@@ -79,6 +79,20 @@ li button:focus {
   width: fit-content;
 }
 
+.star-icon img {
+  animation: 5s infinite alternate rotate;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .btn-submit {
   width: 100%;
   background: $orange;
