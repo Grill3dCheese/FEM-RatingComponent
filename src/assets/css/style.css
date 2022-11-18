@@ -119,6 +119,11 @@ li button:focus {
   color: hsl(0deg, 0%, 100%);
 }
 
+li button:active {
+  background: hsl(217deg, 12%, 63%);
+  color: hsl(0deg, 0%, 100%);
+}
+
 .rating-card {
   background: hsl(213deg, 19%, 18%);
   padding: 2rem;

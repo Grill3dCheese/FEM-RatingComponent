@@ -63,6 +63,11 @@ li button:focus {
   color: $white;
 }
 
+li button:active {
+  background: $light-grey;
+  color: $white;
+}
+
 .rating-card {
   background: $dark-blue;
   padding: 2rem;
